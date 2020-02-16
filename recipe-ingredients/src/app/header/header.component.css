@@ -1,0 +1,6 @@
+.nav-link{
+  cursor: pointer;
+}
+.active{
+  background-color: #efefef;
+}

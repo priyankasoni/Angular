@@ -1,0 +1,21 @@
+<nav class="navbar navbar-light navbar-expand-lg bg-light">
+    <div class="navbar-header">
+        <a class="navbar-brand" style="cursor: pointer;">Recipes Book</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar navbar-nav">
+        <li routerLinkActive='active'><a class="nav-item nav-link" routerLink='/recipes'>Recipes</a></li>
+        <li routerLinkActive='active'><a class="nav-item nav-link" routerLink='/shopping-list'>Shopping List</a></li>
+      </ul>
+      <ul class="navbar navbar-nav">
+          <li class="dropdown" appDropdown><a class="nav-item nav-link dropdown-toggle" style="cursor: pointer;">Manage <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="nav-item nav-link" style="cursor: pointer;">Save Data</a>
+                <a class="nav-item nav-link"style="cursor: pointer;">Fetch Data</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </nav>
